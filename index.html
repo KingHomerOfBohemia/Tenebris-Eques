@@ -1,85 +1,83 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-  <meta charset="UTF-8">
-  <title>Tenebris Eques</title>
-  <style>
-    body {
-      background-color: #000;
-      color: #e60000;
-      font-family: monospace;
-      text-align: center;
-      padding: 2em;
-    }
-    .title {
-      font-size: 2em;
-      margin-bottom: 1em;
-    }
-    .ascii {
-      white-space: pre;
-      font-size: 0.9em;
-      margin-bottom: 2em;
-    }
-    input[type="text"] {
-      width: 60%;
-      padding: 0.5em;
-      margin: 0.5em 0;
-      border: none;
-      background-color: #111;
-      color: #e60000;
-      font-size: 1em;
-    }
-    input[type="submit"] {
-      padding: 0.5em 1em;
-      margin-left: 1em;
-      background-color: #111;
-      color: #e60000;
-      border: 1px solid #e60000;
-      cursor: pointer;
-    }
-    .footer {
-      margin-top: 3em;
-      font-size: 1em;
-      color: #e60000;
-    }
-    form {
-      margin-bottom: 2em;
-    }
-  </style>
+<meta charset="UTF-8" />
+<title>Tenebris Eques</title>
+<style>
+  body {
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  pre {
+    font-size: 14px;
+    line-height: 14px;
+    white-space: pre;
+    margin: 0 auto 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  h1, h2, p {
+    margin: 10px 0;
+  }
+  input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid red;
+    color: red;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  input[type="submit"] {
+    padding: 8px 15px;
+    background-color: red;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  form {
+    margin-bottom: 15px;
+  }
+</style>
 </head>
 <body>
-  <div class="title">Tenebris Eques</div>
-  <div class="ascii">
-     ______<br>
-   .-        -.<br>
-  /            \<br>
- |              |<br>
- |,  .-.  .-.  ,|<br>
- | )(_o/  \o_)( |<br>
- |/     /\     \|<br>
- (_     ^^     _)<br>
-  \__|IIIIII|__/ <br>
-   | \IIIIII/ |<br>
-   \          /<br>
-    `--------`<br>
-    //////////\\\\<br>
-   ||    RIP   ||<br>
-   ||  ☠ ☠ ☠  ||<br>
-   ||__________||<br>
-  /______________\
-  </div>
 
-  <form action="https://www.google.com/search" method="get" target="_blank">
-    <input type="text" name="q" placeholder="Hledej na Googlu">
-    <input type="submit" value="Google">
-  </form>
+<h1>Tenebris Eques</h1>
 
-  <form action="https://duckduckgo.com/" method="get" target="_blank">
-    <input type="text" name="q" placeholder="Hledej na DuckDuckGo">
-    <input type="submit" value="DuckDuckGo">
-  </form>
+<pre>
+       _==/          i     i          \==_
+     /XX/            |\___/|            \XX\
+   /XXXX\            |XXXXX|            /XXXX\
+  |XXXXXX\_         _XXXXXXX_         _/XXXXXX|
+ XXXXXXXXXXXxxxxxxxXXXXXXXXXXXxxxxxxxXXXXXXXXXXX
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+ XXXXXX/^^^^"\XXXXXXXXXXXXXXXXXXXXX/^^^^^\XXXXXX
+  |XXX|       \XXX/^^\XXXXX/^^\XXX/       |XXX|
+    \XX\       \X/    \XXX/    \X/       /XX/
+       "\       !      \X/      !       /"
+                 !      !
+</pre>
 
-  <div class="footer">Respice Finem</div>
+<form method="get" action="https://www.google.com/search" target="_blank">
+  <input type="text" name="q" placeholder="Hledat Google..." />
+  <input type="submit" value="Go" />
+</form>
+
+<form method="get" action="https://duckduckgo.com/" target="_blank">
+  <input type="text" name="q" placeholder="Hledat DuckDuckGo..." />
+  <input type="submit" value="Go" />
+</form>
+
+<p>Respice Finem</p>
+
 </body>
 </html>
